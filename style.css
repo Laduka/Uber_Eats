@@ -1,9 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 300px;
+    margin-bottom:300px;
+
 }
 
-.sign_button {
-    
+.first_screen {
+    background-image: url('uber.jpg');
+}
+
+.first_screen::before {
+    background-color: rgba(0, 0, 0, 0);
+}
+.margin {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.margin_next {
+    margin-right: 17px;
+    margin-top: 27px;
 }
