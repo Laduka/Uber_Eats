@@ -138,3 +138,29 @@
 .countres_blok div{
     margin-bottom: 10px;
 }
+
+.get_help{
+    background-color: black;
+}
+
+.h2_color{
+    color: white;
+}
+
+.helping_cointeiner{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 600px;
+}
+
+.helping_blok a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.helping_blok div{
+    margin-bottom: 10px;
+}
+
+}
