@@ -149,7 +149,6 @@
 
 .helping_cointeiner{
     display: flex;
-    justify-content: space-around;
     margin-left: 600px;
 }
 
@@ -160,7 +159,33 @@
 }
 
 .helping_blok div{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 300px;
 }
 
+.help_cointeiner{
+    display: flex;
+    margin-bottom: 25px;
 }
+
+.stores{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cointeiner{
+    margin: 5px 40px 0px 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.stories_img{
+    padding-right: 5px;
+}
+
+.help_ul ul{
+    color: white;
+    list-style-type: none; 
+}
+
