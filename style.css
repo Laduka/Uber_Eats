@@ -1,191 +1,215 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom:300px;
-    align-items: center;
-    padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 300px;
+  align-items: center;
+  padding-top: 30px;
 }
 
 .first_screen {
-    background-image: url('uber.jpg');
+  background-image: url("uber.jpg");
 }
 
 .first_screen::before {
-    background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .margin_header {
-    margin-left: 15px;
-    color:white ;
+  margin-left: 15px;
+  color: white;
 }
 
-.margin_next{
-    margin-right: 15px;
-    font-size: 16px;
-    padding: 12px 16px;
-    border-radius: 500px;
-    border-width: 0px;
-    color: black;
-    background-color: #EEEEEE;
-    font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.margin_next {
+  margin-right: 15px;
+  font-size: 16px;
+  padding: 12px 16px;
+  border-radius: 500px;
+  border-width: 0px;
+  color: black;
+  background-color: #eeeeee;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.inpouts{
-    padding-bottom: 50px;
-    margin-left: 15px;
+.inpouts {
+  padding-bottom: 50px;
+  margin-left: 15px;
 }
 
-.order{
-    margin-bottom: 25px;
-    margin-left: 10px;
-    font-size: 1cm;
-    color:white;
-
+.order {
+  margin-bottom: 25px;
+  margin-left: 10px;
+  font-size: 1cm;
+  color: white;
 }
 
-.find_food{
-    padding: 12px 16px;
-    color: white;
-    background-color: black;
+.find_food {
+  padding: 12px 16px;
+  color: white;
+  background-color: black;
 }
 
-.input_enter_delivery{
-    padding:12px 16px;
-    color: white;
+.input_enter_delivery {
+  padding: 12px 16px;
+  color: white;
 }
 
-.href_sing_in{
-    margin-top: 15px;
-    color: white;
-    padding: 0px 10;
-    font-size: 0.5cm;
+.href_sing_in {
+  margin-top: 15px;
+  color: white;
+  padding: 0px 10;
+  font-size: 0.5cm;
 }
 
 .main_select {
-    padding: 12px 16px;
+  padding: 12px 16px;
 }
 
-.benefit_card img{
-    width: 470px;
-    height: 280px;
+.benefit_card img {
+  width: 470px;
+  height: 280px;
 }
 
-.benefits{
-    display: flex;
-    justify-content: space-between;
-    padding: 35px;
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
 }
 
-.benefit_card h2{
-    margin: 10px 0px;
+.benefit_card h2 {
+  margin: 10px 0px;
 }
 
-.section_map{
-    margin-top: 20px;
-    margin-left: 40px;
+.section_map {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
-.h1_size{
-    margin-bottom: 30px;
-    font-size: 0.9cm;
+.h1_size {
+  margin-bottom: 30px;
+  font-size: 0.9cm;
 }
 
-.citis{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.citis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.citis_blok{
-    margin-left: 40px;
-    margin-right: 50px;
+.citis_blok {
+  margin-left: 40px;
+  margin-right: 50px;
 }
 
-.citis_blok a{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
+.citis_blok a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-.citis_blok div{
-    margin-bottom: 10px;
+.citis_blok div {
+  margin-bottom: 10px;
 }
 
-.countres{
-    margin-left: 40px;
-    margin-right: 50px;
+.countres {
+  margin-left: 40px;
+  margin-right: 50px;
 }
 
-.countries_cointeiner{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
+.countries_cointeiner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
 }
 
-.countres_blok a{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
+.countres_blok a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-.countres_blok div{
-    margin-bottom: 10px;
+.countres_blok div {
+  margin-bottom: 10px;
 }
 
-.get_help{
-    background-color: black;
+.get_help {
+  background-color: black;
 }
 
-.h2_color{
-    color: white;
+.h2_color {
+  color: white;
 }
 
-.helping_cointeiner{
-    display: flex;
-    margin-left: 600px;
+.helping_cointeiner {
+  display: flex;
+  margin-left: 600px;
 }
 
-.helping_blok a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.helping_blok a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-.helping_blok div{
+.helping_blok div {
+  margin-bottom: 20px;
+  margin-left: 300px;
+}
+
+.help_cointeiner {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cointeiner {
+  margin: 5px 40px 0px 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.stories_img {
+  padding-right: 5px;
+}
+
+.social_networks {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.social_networks img{
+    padding-right: 20px;
+}
+
+.dowland {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1200px;
+}
+
+.information {
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+.information div{
     margin-bottom: 20px;
-    margin-left: 300px;
 }
 
-.help_cointeiner{
-    display: flex;
-    margin-bottom: 25px;
-}
 
-.stores{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.information a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
-
-.cointeiner{
-    margin: 5px 40px 0px 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.stories_img{
-    padding-right: 5px;
-}
-
-.help_ul ul{
-    color: white;
-    list-style-type: none; 
-}
-
