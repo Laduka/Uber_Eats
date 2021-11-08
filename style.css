@@ -11,8 +11,14 @@
   padding-top: 30px;
 }
 
+.button_gamburger img{
+    margin-left: 35px;
+}
+
 .first_screen {
   background-image: url("uber.jpg");
+  width: 1780px;
+  height: 867px;
 }
 
 .first_screen::before {
@@ -20,32 +26,53 @@
 }
 
 .margin_header {
-  margin-left: 15px;
+  margin-right: 1350px;
   color: white;
+  font-size: 35px;
 }
 
 .margin_next {
-  margin-right: 15px;
-  font-size: 16px;
+  margin-right: 40px;
+  font-size: 18px;
   padding: 12px 16px;
   border-radius: 500px;
   border-width: 0px;
   color: black;
   background-color: #eeeeee;
-  font-weight: 600;
+  font-weight: 500;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .inpouts {
   padding-bottom: 50px;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 .order {
   margin-bottom: 25px;
-  margin-left: 10px;
-  font-size: 1cm;
-  color: white;
+  font-size: 52px;
+  color: black;
+  line-height: 64px;
+  font-weight: 700px;
+}
+
+.lokation_inpout{
+    position: relative;
+}
+
+.location-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 16px;
+    top: 15px;
+}
+
+.inpouts_form{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+
 }
 
 .find_food {
@@ -55,8 +82,11 @@
 }
 
 .input_enter_delivery {
-  padding: 12px 16px;
-  color: white;
+    width: 540px;
+    height: 56px;
+    border: 0;
+    padding-left: 50px;
+    background-color: white;
 }
 
 .href_sing_in {
@@ -71,14 +101,20 @@
 }
 
 .benefit_card img {
-  width: 470px;
-  height: 280px;
+  width: 450px;
+  height: 252px;
+}
+
+.benefit_card a{
+    color: black;
+    font-size: 16px;
 }
 
 .benefits {
   display: flex;
   justify-content: space-between;
   padding: 35px;
+  margin-top: 40px;
 }
 
 .benefit_card h2 {
@@ -190,6 +226,10 @@
 
 .social_networks img{
     padding-right: 20px;
+}
+
+.social_networks a {
+    text-decoration: none;
 }
 
 .dowland {
