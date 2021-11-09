@@ -45,7 +45,7 @@
 
 .inpouts {
   padding-bottom: 50px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .order {
@@ -71,7 +71,19 @@
 .inpouts_form{
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 835px;
+}
+
+.select_form{
+  position: relative;
+}
+
+.clock-icon{
+  position: absolute;
+  left: 8px;
+  top: 19px;
+  width: 20px;
+  height: 20px;
 
 }
 
@@ -91,18 +103,34 @@
 
 .href_sing_in {
   margin-top: 15px;
-  color: white;
-  padding: 0px 10;
+  color: black;
   font-size: 0.5cm;
 }
 
+.href_sing_in a{
+  color: black;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
 .main_select {
-  padding: 12px 16px;
+  padding: 12px 30px;
+  border: 0px;
+  height: 56px;
+}
+
+.benefit_card{
+  margin-right: 80px;
+
+}
+
+.benefit_card:last-of-type{
+  margin-right: 0px;
+  
 }
 
 .benefit_card img {
-  width: 450px;
-  height: 252px;
+  width: 510px;
 }
 
 .benefit_card a{
@@ -112,8 +140,8 @@
 
 .benefits {
   display: flex;
-  justify-content: space-between;
   padding: 35px;
+  padding-right: 0px;
   margin-top: 40px;
 }
 
