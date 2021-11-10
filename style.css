@@ -17,7 +17,7 @@
 
 .first_screen {
   background-image: url("uber.jpg");
-  width: 1780px;
+  width: 100%;
   height: 867px;
 }
 
@@ -124,11 +124,6 @@
 
 }
 
-.benefit_card:last-of-type{
-  margin-right: 0px;
-  
-}
-
 .benefit_card img {
   width: 510px;
 }
@@ -212,19 +207,27 @@
 
 .helping_cointeiner {
   display: flex;
-  margin-left: 600px;
+  margin-left: 550px;
+  margin-top: 30px;
 }
 
 .helping_blok a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
 }
+
+.helping_blok a:hover{
+  text-decoration: underline;
+}
+
 
 .helping_blok div {
   margin-bottom: 20px;
-  margin-left: 300px;
+  margin-left: 100px;
 }
+
 
 .help_cointeiner {
   display: flex;
