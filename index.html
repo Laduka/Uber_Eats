@@ -3,6 +3,7 @@
     <title>My site</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="pizza.png" type="image/png" />
+    <meta charset="UTF-8"/>
   </head>
   <body>
     <section class="first_screen">
@@ -62,8 +63,21 @@
           <a href="#"> sing in</a> for your recent addresses
       </div>
     </section>
+  <section class="get_mobile">
+    <div>
+      <div class="register_phone">
+        <img src="data:image/png;base64,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" 
+        alt="">
+      <h2>Theres more to love in the iPhone app</h2>
+      </div>
+      <button class="get_app">
+        🍏 Get the app
+      </button>
+    </div>
+  </section>
     <section class="benefits">
-      <div class="benefit_card">
+      
+      <div class="benefit_card col-sm-12 col-lg-4">
         <img
           src="https://www.ubereats.com/_static/d68c5f5ddd33d16a8d6855987410673b.svg"
           alt=""
@@ -71,7 +85,7 @@
         <h2>Feed your employees</h2>
         <a href="#"> Crate a businnes account </a>
       </div>
-      <div class="benefit_card">
+      <div class="benefit_card col-sm-12 col-lg-4">
         <img
           src="https://www.ubereats.com/_static/d68c5f5ddd33d16a8d6855987410673b.svg"
           alt=""
@@ -79,7 +93,7 @@
         <h2>Feed your employees</h2>
         <a href="#"> Crate a businnes account </a>
       </div>
-      <div class="benefit_card">
+      <div class="benefit_card col-sm-12 col-lg-4">
         <img
           src="https://www.ubereats.com/_static/d68c5f5ddd33d16a8d6855987410673b.svg"
           alt=""
@@ -89,11 +103,13 @@
       </div>
     </section>
     <section class="section_map">
+      <div class="h1_size_button">
       <h1 class="h1_size">Cities near me</h1>
-      <iframe
+      <a href=# class="h1_margin_button">Wievv all 500+ cities</a>
+      </div>
+      <iframe class="col-12"
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d82352.48246544447!2d23.942195833904684!3d49.8327786773887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1634859196786!5m2!1sru!2sua"
-        width="1500"
-        height="350"
+        height="350px"
         style="border: 0"
         allowfullscreen=""
         loading="lazy"

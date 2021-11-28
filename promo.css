@@ -1,0 +1,130 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 10px;
+}
+
+.header_uber{
+    cursor: pointer;
+}
+
+.header_logo_gamburder{
+    margin-right: 20px;
+}
+
+.header_button{
+    margin-top: 28px;
+    margin-right: 25px;
+    padding: 12px 16px;
+    width: 90px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+
+.sale_text{
+    margin-top: 35px;
+}
+
+
+.sale_text h4,.sale_text p,.sale_text div,.sale_text h2{
+    display: flex;
+    justify-content: center;
+}
+
+.sale_text hr{
+    width: 600px;
+    border: none;
+    background-color: rgb(226,226,226);
+    height: 1px;
+}
+
+.sale_text_promo{
+    margin-top: 40px;
+}
+
+
+
+.section_button{
+    color: black;
+}
+
+
+.section_questions{
+    padding: 40px;
+
+}
+
+.questions_text{
+
+}
+
+
+.questions_text p{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
+.tab_menu_button{
+    background-color: black;
+    color: white;
+    padding: 12 16px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+    width: 100px;
+}
+
+.list{
+    list-style-type: none;
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 30px;
+    
+}
+
+.tab_menu_list{
+    margin-top: 40px;
+}
+
+.dowland{
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dowland_apple button {
+    border-radius: 500px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.dowland_apple{
+    padding: 40px;
+}
